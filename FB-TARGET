@@ -1,0 +1,7 @@
+echo "# FB-TARGET" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kola-22/FB-TARGET.git
+git push -u origin main
